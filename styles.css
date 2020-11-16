@@ -34,6 +34,15 @@ body {
     padding: 10px;
     cursor: pointer;
 }
+.field-name input,
+.field-email input,
+.field-password input {
+    background: none;
+    border: none;
+    flex: 1;
+    height: 100%;
+    outline: none;
+}
 div.innactive {
     opacity: 0;
     pointer-events: none;
